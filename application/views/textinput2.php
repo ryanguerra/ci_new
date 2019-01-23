@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="/assets/css/styles.css">
-	<link rel="stylesheet" href="/assets/css/vendor/normalize.css">
+	<link rel="stylesheet" href="/assets/css/styles2.css">
+	<script type='text/javascript' src='/assets/js/javascript2.js'></script>
+	
 	<script type='text/javascript' src='/assets/js/jquery.min.js'></script>
-	<script type='text/javascript' src='/assets/js/javascript.js'></script>
+	<link rel="stylesheet" href="/assets/css/vendor/normalize.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>

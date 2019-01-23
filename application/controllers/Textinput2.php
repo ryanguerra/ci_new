@@ -20,7 +20,7 @@ class Textinput extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('textinput');
+		$this->load->view('textinput2');
 		// die("ddf");
 	}
 

@@ -71,8 +71,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Welcome to CodeIgniter!</h1>
 
 	<div id="body">
+		<!-- <a href="/textinput/another">g</a> -->
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
+		<a href="">gsdvdfsfdfdgb</a>
+		
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
 
