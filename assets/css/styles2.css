@@ -6,7 +6,7 @@
 }
 p.header {
   text-align: center;
-  font: 600 26pt Raleway;
+  font: 700 26pt Raleway;
   margin-bottom: 136px;
 }
 * {
@@ -19,351 +19,118 @@ p.header {
   text-align: center;
   width: 1218px;
 }
-#haruki_block {
-  background-color: #f0efee;
+#ruri_block {
+  background-color: #2f3238;
 }
-#wrapper_haruki {
-  background-color: #f0efee;
+#wrapper_ruri {
+  background-color: #2f3238;
 }
-.input_block_haruki {
-  width: 351px;
-  margin: 0 26px;
-  display: inline-block;
-}
-.input_block_haruki label {
-  float: left;
-  position: relative;
-  top: -113px;
-  left: 18px;
-  color: #6a7989;
-  font: 700 14pt Raleway;
-  transition: .25s ease;
-  z-index: 1;
-}
-.input_block_haruki input {
-  width: 100%;
-  padding: 0 15px;
-  color: #afb5bb;
-  background: #f0efee;
-  transition: all .25s ease;
-  caret-color: #afb5bb;
-  font-weight: bold;
-  font-size: 31pt;
-  border-style: none;
-  position: relative;
-  z-index: 1;
-}
-.input_block_haruki div {
-  background-color: #f0efee;
-  border-style: solid;
-  border-width: 4px 0;
-  border-color: #6a7989 white #6a7989 white;
-  height: 78px;
-  width: 351px;
-  position: relative;
-  top: -62px;
-  z-index: 0;
-  transition: all 0.2s ease;
-}
-.input_block_haruki input:focus,
-.input_block_haruki input.valid_input_haruki {
-  outline: none;
-}
-.input_block_haruki input:focus ~ label,
-.input_block_haruki input.valid_input_haruki ~ label {
-  top: -199px;
-  font: 700 14pt Raleway;
-}
-.input_block_haruki input:focus ~ div,
-.input_block_haruki input.valid_input_haruki ~ div {
-  top: -71px;
-  height: 96px;
-}
-#hoshi_block {
-  background-color: #f9f7f6;
-}
-#wrapper_hoshi {
-  background-color: #f9f7f6;
-}
-.input_block_hoshi {
-  width: 351px;
-  background-color: #f9f7f6;
-  margin: 0 26px;
-  display: inline-block;
-  height: 59px;
-}
-.input_block_hoshi input {
-  width: 100%;
-  margin: 0;
-  padding: 11px 4px;
-  border-style: solid;
-  border-width: 0 0 1px 0;
-  border-color: #b9c1ca;
-  color: #595f6e;
-  background: #f9f7f6;
-  font: 700 20pt "Helvetica Neue";
-  caret-color: #595f6e;
-}
-.input_block_hoshi label {
-  float: left;
-  position: relative;
-  top: -46px;
-  left: 4px;
-  font: 700 14pt Raleway;
-  color: #6a7989;
-  transition: all 0.2s;
-}
-.input_block_hoshi div {
-  width: 0%;
-  height: 4px;
-  position: relative;
-  top: -3px;
-  transition: width 0.4s;
-}
-.input_block_hoshi p {
-  float: left;
-  position: relative;
-  top: -97px;
-  left: -75px;
-  font: 700 14pt Raleway;
-  color: #6a7989;
-  transition: all 0.2s;
-  opacity: 0;
-}
-.input_block_hoshi input:focus,
-.input_block_hoshi input.hoshi_input.valid_input_hoshi {
-  outline: none;
-}
-.input_block_hoshi input:focus ~ div,
-.input_block_hoshi input.valid_input_hoshi ~ div {
-  width: 100%;
-}
-.input_block_hoshi input:focus ~ label,
-.input_block_hoshi input.valid_input_hoshi ~ label {
-  opacity: 0;
-  left: 20px;
-}
-.input_block_hoshi input:focus ~ p,
-.input_block_hoshi input.valid_input_hoshi ~ p {
-  opacity: 1;
-  left: -50px;
-}
-#hideo_block {
-  background-color: #f9f7f6;
-}
-#wrapper_hideo {
-  background-color: #f9f7f6;
-}
-.input_section_hideo {
-  width: 351px;
-  background-color: #f9f7f6;
-  margin: 0 26px;
-  display: inline-block;
-  height: 74px;
-  overflow: hidden;
-}
-.input_section_hideo input {
-  width: 300px;
-  height: 74px;
-  margin: 0;
-  border-style: none;
-  color: #aaaaaa;
-  background: #fff;
-  font: 700 20pt "Helvetica Neue";
-  caret-color: #aaaaaa;
-  transition: all 0.4s;
-  padding: 0 18px 0 30px;
-  position: relative;
-  left: 45px;
-}
-.input_section_hideo input ~ div.icon {
-  background-color: #899dda;
-  width: 71px;
-  height: 74px;
-  display: inline-block;
-  float: left;
-  transition: all 0.4s;
-  padding: 21px;
-  color: white;
-  font-size: 23pt;
-  position: relative;
-  top: -74px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 27px;
-}
-.input_section_hideo input ~ div#hideo_icon_user {
-  background-image: url("../img/user.png");
-}
-.input_section_hideo input ~ div#hideo_icon_mail {
-  background-image: url("../img/mail.png");
-}
-.input_section_hideo input ~ div#hideo_icon_password {
-  background-image: url("../img/lock.png");
-}
-.input_section_hideo input:focus {
-  outline: none;
-  position: relative;
-  left: 24px;
-  width: 304px;
-}
-.input_section_hideo input:focus ~ div.icon {
-  width: 57px;
-  background-size: 17px;
-}
-#juro_block {
-  background-color: #2fa8ec;
-}
-#wrapper_juro {
-  background-color: #2fa8ec;
-}
-.input_section_juro {
+.input_section_ruri {
   width: 350px;
   height: 93px;
-  background-color: #1784cd ;
+  background-color: #2f3238 ;
   margin: 0 26px;
   display: inline-block;
   overflow: hidden;
 }
-.input_section_juro input {
-  width: 404px;
-  height: 120px;
+.input_section_ruri input {
+  width: 366px;
+  height: 50px;
   margin: 0;
   position: relative;
-  left: -27px;
-  color: #1b86cd;
-  background: #fff;
-  font: 700 16pt "Helvetica Neue";
-  caret-color: #1b86cd;
-  padding: 10px 43px;
+  top: -8px;
+  left: -8px;
+  color: #fff;
+  background: #2f3238;
+  font: 500 18pt "Helvetica Neue";
+  caret-color: #fff;
+  padding: 0 8px;
   z-index: 1;
   border-width: 0px;
-  transition: all 0.25s ease;
+  transition: 0.3s;
+  box-shadow: inset 0 0 0 8px #b7c3ac;
 }
-.input_section_juro label.juro_label {
-  color: #6a7989;
+.input_section_ruri input ~ label {
+  color: #696969;
   position: relative;
-  top: -85px;
-  left: -110px;
-  font: 700 14pt Raleway;
-  z-index: 2;
-  transition: all 0.25s ease;
+  font: 700 18pt Raleway;
+  z-index: 5;
+  transition: 0.3s;
+  float: left;
+  margin-top: -50px;
 }
-.input_section_juro input:focus,
-.input_section_juro input.valid_input_juro {
+.input_section_ruri input:focus,
+.input_section_ruri input.valid_input_ruri {
   outline: none;
-  box-shadow: inset 0 0 0 35px #1784cd;
+  box-shadow: inset 0 0 0 2px #86ab83;
 }
-.input_section_juro input:focus ~ label,
-.input_section_juro input.valid_input_juro ~ label {
-  color: #fff;
-  position: relative;
-  top: -112px;
-  left: -127px;
-  font: 700 10pt Raleway;
+.input_section_ruri input:focus ~ label,
+.input_section_ruri input.valid_input_ruri ~ label {
+  margin-top: -1px;
+  font: 800 13pt Raleway;
+  color: #86ab83;
 }
-#madoka_block {
-  background-color: #2f3238;
+#manami_block {
+  background-color: #e8e8e8;
 }
-#wrapper_madoka {
-  background-color: #2f3238;
+#wrapper_manami {
+  background-color: #e8e8e8;
 }
-.input_section_madoka {
-  width: 351px;
-  height: 70px;
-  background-color: #2f3238;
+.input_section_manami {
+  width: 350px;
+  height: 100px;
+  background-color: #e8e8e8;
   margin: 0 26px;
   display: inline-block;
-  position: relative;
-  z-index: 1;
+  overflow: hidden;
 }
-.input_section_madoka input {
-  width: 351px;
+.input_section_manami input {
+  width: 354px;
+  height: 55px;
   margin: 0;
-  color: #7a7593;
-  background: #2f3238;
-  font: 700 18pt "Helvetica Neue";
-  caret-color: #7a7593;
-  padding: 20px;
-  z-index: 1;
-  transition: 0.4s;
-  box-sizing: border-box !important;
-  border-style: none;
-  border-bottom: 2px solid #7a7593;
-}
-.input_section_madoka input ~ div.focus-border:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 2px;
-  background-color: #7a7593;
-  transition: 0.1s;
-  transition-delay: 0.2s;
-}
-.input_section_madoka input ~ .focus-border:after {
-  top: auto;
-  bottom: 0;
-  right: auto;
-  left: 0;
-  transition-delay: 0.4s;
-}
-.input_section_madoka input ~ .focus-border i:before,
-.input_section_madoka input ~ .focus-border i:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 2px;
-  height: 0;
-  background-color: #7a7593;
-  transition: 0.1s;
-  transition-delay: 0.3s;
-}
-.input_section_madoka input ~ .focus-border i:after {
-  left: 0;
-  right: auto;
-  top: 0;
-  bottom: auto;
-  transition-delay: 0.1s;
-}
-.input_section_madoka input:focus,
-.input_section_madoka input.valid_input_madoka:focus {
-  outline: none;
-}
-.input_section_madoka input:focus ~ .focus-border:before,
-.input_section_madoka input.valid_input_madoka ~ .focus-border:before {
-  width: 100%;
-  transition: 0.1s;
-}
-.input_section_madoka input:focus ~ .focus-border:after,
-.input_section_madoka input.valid_input_madoka ~ .focus-border:after {
-  transition-delay: 0.1s;
-}
-.input_section_madoka input:focus ~ .focus-border i:before,
-.input_section_madoka input.valid_input_madoka ~ .focus-border i:before,
-.input_section_madoka input:focus ~ .focus-border i:after,
-.input_section_madoka input.valid_input_madoka ~ .focus-border i:after {
-  height: 100%;
-  transition: 0.1s;
-}
-.input_section_madoka input:focus ~ .focus-border i:after,
-.input_section_madoka input.valid_input_madoka ~ .focus-border i:after {
-  transition-delay: 0.1s;
-}
-.input_section_madoka input ~ label {
-  color: #7a7593;
   position: relative;
-  font: 700 14pt Raleway;
-  z-index: 5;
-  transition: all 0.2s ease;
-  float: left;
-  margin-left: 20px;
-  margin-top: -48px;
+  top: -2px;
+  left: -2px;
+  color: #fff;
+  background: rgba(183, 195, 172, 0);
+  font: 500 18pt "Helvetica Neue";
+  caret-color: #fff;
+  padding: 0 12px;
+  z-index: 1;
+  border-width: 0px;
+  transition: 0.1s;
+  box-shadow: inset 0 0 0 2px #a8a8a8;
 }
-.input_section_madoka input:focus ~ label,
-.input_section_madoka input.valid_input_madoka ~ label {
-  margin-top: 16px;
-  font: 700 10pt Raleway;
+.input_section_manami input ~ div.hidden_bg {
+  width: 350px;
+  height: 55px;
+  background: #a8a8a8;
+  position: relative;
+  top: -110px;
+  transition: 0.2s;
+}
+.input_section_manami input ~ label {
+  color: #696969;
+  position: relative;
+  font: 700 18pt Raleway;
+  z-index: 5;
+  transition: 0.3s;
+  float: left;
+  margin-top: -101px;
+}
+.input_section_manami input:focus,
+.input_section_manami input.valid_input_manami {
+  outline: none;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 2px rgba(168, 168, 168, 0);
+}
+.input_section_manami input:focus ~ div.hidden_bg,
+.input_section_manami input.valid_input_manami ~ div.hidden_bg {
+  top: -58px;
+}
+.input_section_manami input:focus ~ label,
+.input_section_manami input.valid_input_manami ~ label {
+  color: #d4cfd1;
+  font: 700 12pt Raleway;
+  margin-top: -45px;
 }
