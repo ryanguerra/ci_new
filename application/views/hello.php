@@ -9,25 +9,44 @@
 	<script type='text/javascript' src='/assets/js/javascript.js'></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style type="text/css">
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  height: 100%;
+  padding: 16px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.5s ease;
+  background: #869fb8;
+  border-radius: 3px;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/*.btn:active {
+  cursor: pointer;
+  background: #ccc;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), inset 0 3px 6px rgba(0, 0, 0, 0.23);
+}*/
+
+body {
+  text-align:center;
+  background: #35455c;
+  color: white;
+}
+</style>
 <body>
-
-<div class="block" id="juro_block">
-	<p class="header" style="color: #fff; margin-bottom: 103px;">Hello World_</p>
-	<div class="wrapper" id="wrapper_juro" style="width: 500px; height: 50px; border-radius: 5px; background: #81D4FA;">
-		<!-- <div class="input_section_juro">
-	        <input type="text" name="username" class="juro_input" id="juro_input_fname"/>
-	        <label class="juro_label">First Name</label>
-		</div>
-		<div class="input_section_juro">
-	        <input type="text" name="username" class="juro_input" id="juro_input_lname"/>
-	        <label class="juro_label">Last Name</label>
-		</div>
-		<div class="input_section_juro">
-	        <input type="text" name="username" class="juro_input" id="juro_input_mname"/>
-	        <label class="juro_label" style="margin-left: 27px;">Maiden Name</label>
-		</div> -->
-	</div>
-</div>
-
+<h1 style="margin-top: 100px;">Tanghali lang</h1>
+<p style="margin-bottom: 50px;">Ang tapat</p>
+<a href="/textinput/textinput1" class="btn">INPUT EFFECT 1</a><br><br>
+<a href="/textinput/textinput2" class="btn">INPUT EFFECT 2</a><br><br>
 </body>
 </html>
