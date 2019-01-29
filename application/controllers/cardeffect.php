@@ -20,7 +20,7 @@ class Textinput extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('links');
+		$this->load->view('hello');
 		// die("ddf");
 	}
 
@@ -33,12 +33,6 @@ class Textinput extends CI_Controller {
 	public function textinput2()
 	{
 		$this->load->view('textinput2');
-		// die("ddf");
-	}
-
-	public function cardeffect()
-	{
-		$this->load->view('cardeffect');
 		// die("ddf");
 	}
 
